@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ez-neurai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" /><updated>2021-06-05T17:28:12+09:00</updated><id>https://ez-neurai.github.io/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="https://ez-neurai.github.io/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>https://ez-neurai.github.io/ns1</id><content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ez-neurai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" /><updated>2021-06-05T17:34:29+09:00</updated><id>https://ez-neurai.github.io/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="https://ez-neurai.github.io/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>https://ez-neurai.github.io/ns1</id><content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -130,15 +130,15 @@ Substantia nigra ( 어두운 부분 ) 를 관찰할 수 있다.&lt;/p&gt;
 
   &lt;p&gt;하지만 파킨스 병 환자들은 도파민 뉴런이 사멸해 거뭇거뭇한 부분이 없다.&lt;/p&gt;
 
-  &lt;p&gt;따라서 운동 능력 조절에 문제가 생기는 파킨스 병은 해당 부위와 밀접한 관련이 있음을 알 수 있다.
-&lt;br /&gt;&lt;/p&gt;
-  &lt;h3 id=&quot;-what-is-a-synapse--&quot;&gt;[ What is a Synapse ? ]&lt;/h3&gt;
-  &lt;p&gt;&lt;br /&gt;
+  &lt;p&gt;따라서 운동 능력 조절에 문제가 생기는 파킨스 병은 해당 부위와 밀접한 관련이 있음을 알 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;-what-is-a-synapse--&quot;&gt;[ What is a Synapse ? ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
 &lt;img src=&quot;https://user-images.githubusercontent.com/62509122/120021855-9077e980-c026-11eb-97b1-54db92fa573c.png&quot; alt=&quot;tK782MMrZJTSeHUggM0kkw&quot; /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
 뉴런의 말단 부위가 다른 뉴런과 만나는 부위를 시냅스 (Synapse) 라고 한다.&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;p&gt;시냅스를 기준으로 Presynaptic Neuron  과 Postsynaptic Neuron 으로 나뉜다.&lt;/p&gt;
 
