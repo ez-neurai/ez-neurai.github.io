@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-05T15:14:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="http://localhost:4000/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>http://localhost:4000/ns1</id><content type="html" xml:base="http://localhost:4000/ns1">&lt;h3 id=&quot;-what-are-glia-cells--&quot;&gt;[ What are Glia Cells ? ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+뇌를 구성하는 중요한 세포로 Glia Cell 과 Neurons 가 있다.&lt;/p&gt;
+
+&lt;p&gt;여기서 Glia Cell 은 그리스어 Glue 즉, 풀에서 유래했다.&lt;/p&gt;
+
+&lt;p&gt;우리의 뇌에는 Neuron 이 대략 1/10 , 나머지 빈 공간은 Glia Cell 이 채우고 있다.&lt;/p&gt;
+
+&lt;p&gt;Glia cell 이 Neuron 의 네트워크 형태를 온전히 유지할 수 있도록 연접 역할을 하는 것이다.&lt;/p&gt;
+
+&lt;p&gt;그래서 Neurons 에 비해 Glia Cells 의 수가 비교적 많다. ( N : 100 billion / G : 1000 billion )
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Glia Cell 의 역할을 정리하자면 Insulates ( 절연 ), Supports ( 지지 ), Nourishes ( 공급 ) 이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;-뇌의-뉴런-구조를-알기-위해-극복해야-했던-3가지-사항--&quot;&gt;[ 뇌의 뉴런 구조를 알기 위해 극복해야 했던 3가지 사항  ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;크기가 너무 작다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;17세기에 현미경의 발명으로 10-50 μm 의 세포를 관찰할 수 있게 되었을 때, 뉴런을 관찰할 수 있었다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;뇌 조직은 너무 부드럽다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;뇌 조직이 너무 부드러워 얇게 슬라이싱을 할 수 없었을 뿐더러 동시에 현미경을 통한 관찰도 어려웠다. 
+그래서 Formaldehyde 처리를 하여 조직을 단단히 고정시켰고 Microtome 을 이용해 슬라이싱하여 관찰했다. 
+오늘날에는 변이가 잘 일어나는 조직이 있을 경우, 영하 20도에서 영하 30도까지 온도를 내려 자르고 싶은 
+조직을 고정하고 슬라이싱하는 Cryostat 이 개발되어 쓰이고 있다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;뇌 조직을 염색해서 봐도 구분을 할 수가 없다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;얇게 슬라이싱하여 관찰할 수 있더라도 구분을 할 수 없다면 아무런 의미가 없었다. 
+그래서 새로운 염색 기법이 필요했고 독일 정신과 의사인 Franz Alexander Nissl 이
+The nissl stain 이라는 새로운 염색법을 개발해냈다. 그러나 세포 핵 위주로만 보이고
+나머지 공간은 텅 비어있는 모습으로 관찰되자 다른 염색법이 필요했다. 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;--본격적인-뇌-연구의-시작을-알린-golgi-stain-&quot;&gt;[  본격적인 뇌 연구의 시작을 알린 Golgi Stain ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+이탈리아 해부학자인 Camillo Golgi 는 Golgi stain 이라는 새로운 염색 기법을 개발했다.
+이 염색법을 이용해 세포체에서 뻗어나오는 신경돌기를 확인할 수 있었다.&lt;/p&gt;
+
+&lt;p&gt;다른 뉴런에 신호를 전달하는 통로 역할인 &lt;strong&gt;Axons&lt;/strong&gt; 과
+다른 뉴런들로부터 신호를 받아들이는 안테나 역할인 &lt;strong&gt;Dendrites&lt;/strong&gt; 로 나누어 명명했고 
+이를 합쳐 &lt;strong&gt;Neurites&lt;/strong&gt; 라고 한다. 
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;-신경-세포의-구조-&quot;&gt;[ 신경 세포의 구조 ]&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/120021506-1c3d4600-c026-11eb-8d88-e3c28bc5f1fa.png&quot; alt=&quot;제목 없음&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Soma ( = Cell body ) 안에는 Cytosol (세포 안에 모든 액체적인 부분) 과 Organelle (막으로 구성된 소기관) 그리고 Cytoplasm (핵을 제외한 Cytosol + Organelle) 이 있다. 포함 관계에 대해서는 내가 열심히 그린 참고 자료를 통해 이해하는 것이 효율적이다.&lt;/p&gt;
+
+&lt;p&gt;뉴런의 막은 Cytoplasm 과 인접하여 보호하는 역할을 하므로 5 nm 로 두껍다. 그리고 막에 있는 단백질의 조성이 일반 세포들과는 다르다. 특히나 뉴런 안에서도 막의 종류에 따라 단백질 조성이 달라지기 때문에 구분지어 &lt;strong&gt;Neuronal membrane&lt;/strong&gt; 이라 부른다. 다음 챕터에서 중요하게 다루니 기억해두자.&lt;/p&gt;
+
+&lt;p&gt;뉴런도 다른 세포들처럼 세포의 구조를 결정하는 Cytoskeleton 이 존재한다. 뉴런들은 일반 세포들과는 다른 특이한 구조를 지녔기 때문에 그 뼈대가 중요한 역할을 한다. 이러한 뼈대들은 길어지기도 하고 짧아지기도 하는 가변성으로 뉴런의 모양을 변화시킨다.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Cytoskeleton 종류&lt;/th&gt;
+      &lt;th&gt;길이&lt;/th&gt;
+      &lt;th&gt;구성 분자&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;microtubules&lt;/td&gt;
+      &lt;td&gt;20 nm&lt;/td&gt;
+      &lt;td&gt;tubulin molecule&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;neurofilaments&lt;/td&gt;
+      &lt;td&gt;10 nm&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;microfilaments&lt;/td&gt;
+      &lt;td&gt;5 nm&lt;/td&gt;
+      &lt;td&gt;actin molecule&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;{ 심화 }&lt;/p&gt;
+
+  &lt;p&gt;microtubules 를 조절하는 가장 대표적인 단백질로 타우라는 단백질이 있다. 타우 단백질에 문제가 생기면 퇴행성 뇌 질환이 발병될 수 있다는 가설이 있다.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/120021704-6292a500-c026-11eb-82a3-3bd731f6e658.png&quot; alt=&quot;그림1&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;알츠하이머 환자의 사후 뇌 조직을 관찰한 사진이다. (a) 는 microtubules 의 신호를, (b) 는 타우 프로틴이 뭉쳐있는 정도를, (c) 는 (a) 와 (b) 를 겹친 것이다.&lt;/p&gt;
+
+  &lt;p&gt;(c) 의 위쪽 부분은 microtubules 의 신호가 매우 강하고 타우가 엉켜 붙어있지 않아 건강한 뉴런이라 판단할 수 있다.&lt;/p&gt;
+
+  &lt;p&gt;그러나 중간 부분을 보면 타우 단백질이 엉켜 붙어있어 병든 뉴런이라는 것을 알 수 있다.&lt;/p&gt;
+
+  &lt;p&gt;알츠하이머 환자의 뇌 단면을 확인해보면 텅 빈 공간을 관찰할 수 있는데, 이는 병든 뉴런들이 모두 사멸했기 때문이다.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/120021799-80600a00-c026-11eb-8b12-79254bb8ed8e.jpg&quot; alt=&quot;64cfa98339cbd6c983f1b8c2e88e4c62&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;파킨스 병에 대해서도 알아보자면, 정상인들의 중뇌에는 도파민 뉴런이 다수 존재하는 부위인 
+Substantia nigra ( 어두운 부분 ) 를 관찰할 수 있다.&lt;/p&gt;
+
+  &lt;p&gt;하지만 파킨스 병 환자들은 도파민 뉴런이 사멸해 거뭇거뭇한 부분이 없다.&lt;/p&gt;
+
+  &lt;p&gt;따라서 운동 능력 조절에 문제가 생기는 파킨스 병은 해당 부위와 밀접한 관련이 있음을 알 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;-what-is-a-synapse--&quot;&gt;[ What is a Synapse ? ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/120021855-9077e980-c026-11eb-97b1-54db92fa573c.png&quot; alt=&quot;tK782MMrZJTSeHUggM0kkw&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+말단 부위가 다른 뉴런과 만나는 부위를 시냅스 (Synapse) 라고 한다. 시냅스를 기준으로 Presynaptic Neuron  과 Postsynaptic Neuron 으로 나뉜다.&lt;/p&gt;
+
+&lt;p&gt;전기 신호로 전도되다가 Synaptic vesicles 안에 있는 Neurotransmitter 가 방출되면서 화학 신호로 전환된다. 그 후 Postsynaptic Dendrites 의 막에 있는 Receptor 에서 다시 전기 신호로 전환된다.&lt;/p&gt;
+
+&lt;p&gt;Axon 의 말단 부위인 Axon Terminal 은 Microtubules 가 없다. 대신 도파민, 아세틸콜린과 같은 신경전달물질 (Neurotransmitter) 을 저장하고 방출하는 연접 소포 (Synaptic vesicles) 와 미토콘드리아가 다수 존재한다. 각 뉴런들은 각자만의 Neurotransmitter 을 가지고 있는 경우가 많다고 한다.
+&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;-what-is-an-axon--&quot;&gt;[ What is an Axon ? ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Axon 은 뉴런의 &lt;strong&gt;출력&lt;/strong&gt;이며 다른 뉴런과의 시냅스 연결을 통해 신경 신호를 운반하는 역할을 한다.&lt;/p&gt;
+
+&lt;p&gt;Axon 에는 Soma 와 달리 소포체( Endoplasmic Reticulum ; ER) 가 없기 때문에 단백질 합성과 운반이 이루어지지 않는다.&lt;/p&gt;
+
+&lt;p&gt;그래서 Soma 에 있는 ER 에서 합성하여 운반하여야 한다.&lt;/p&gt;
+
+&lt;p&gt;이를 Axoplasmic transport 라 하고 아래 표처럼 방향에 따라 나누어진다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;방향&lt;/th&gt;
+      &lt;th&gt;명칭&lt;/th&gt;
+      &lt;th&gt;담당 수송 단백질&lt;/th&gt;
+      &lt;th&gt;선로&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;from Soma to Axon terminal&lt;/td&gt;
+      &lt;td&gt;Anterograde&lt;/td&gt;
+      &lt;td&gt;Kinesin&lt;/td&gt;
+      &lt;td&gt;Microtubules&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;from Axon terminal to Soma&lt;/td&gt;
+      &lt;td&gt;Retrograde&lt;/td&gt;
+      &lt;td&gt;dynein&lt;/td&gt;
+      &lt;td&gt;Microtubules&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;앞서 말했듯이 타우 단백질에 문제가 생기면 Microtubules 합성에 문제가 생기고, 
+수송 단백질이 수송할 수 있도록 하는 선로가 반갈죽되어 결국엔 전반적인 신경 체계가 무너지게 된다.
+&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;-what-is-a-dendrite--&quot;&gt;[ What is a Dendrite ? ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dendrite 는 다른 뉴런에서 오는 신호의 &lt;strong&gt;입력&lt;/strong&gt;으로 작용한다. 그리고 뉴런의 Soma 로 입력 신호를 전달한다. &lt;del&gt;( 정확한 표현은 전도이다. )&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;그리스어 Tree 에서 유래했다. 왜냐하면 하나의 뉴런이 다수의 다른 뉴런들로부터 신호를 전달받고&lt;/p&gt;
+
+&lt;p&gt;전달받은 뉴런 또한 다른 뉴런들로 신호를 전달하기 때문에 마치 얽히고 설킨 나뭇가지를 연상시키기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;그리고 Dendrites 에는 Dendritic spines 이 매우 많다.&lt;/p&gt;
+
+&lt;p&gt;정상인들은 spine 이 균일하게 형성되어 있지만 신경 질환을 앓은 사람들은 spine 이 불규칙하게 형성되어 있다.
+&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;-뉴런을-나누는-기준-&quot;&gt;[ 뉴런을 나누는 기준 ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;1.&lt;/strong&gt; Dendrite or Soma 의 모양 / 형태&lt;/p&gt;
+
+&lt;p&gt;Stellate cell : Soma 를 중심으로 Dendrites 가 뻗어져 나온 모양이 마치 별을 연상케 한다.&lt;/p&gt;
+
+&lt;p&gt;Pyramidal cell : 피라미드 모양으로 나열되어 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; 중추신경계 (CNS) / 기능&lt;/p&gt;
+
+&lt;p&gt;감각 뉴런, 운동 뉴런, 연합 뉴런&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Soma 로부터 뻗어져 나오는 Neurites 의 수&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;개수&lt;/th&gt;
+      &lt;th&gt;명칭&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Single&lt;/td&gt;
+      &lt;td&gt;unipolar neuron - 대부분 곤충에게서 발견&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Two&lt;/td&gt;
+      &lt;td&gt;bipolar neuron - 감각 뉴런에서 발견&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;More than two&lt;/td&gt;
+      &lt;td&gt;multipolar neuron - 가장 흔하게 발견&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; 액손의 길이&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;길이&lt;/th&gt;
+      &lt;th&gt;명칭&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;길이가 길다.&lt;/td&gt;
+      &lt;td&gt;golgi type 1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;길이가 짧다.&lt;/td&gt;
+      &lt;td&gt;golgi type 2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; 신경전달물질 (Neurotransmitter) 의 종류&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;신경전달 물질의 종류&lt;/th&gt;
+      &lt;th&gt;명칭&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;아세틸콜린 (ACh)&lt;/td&gt;
+      &lt;td&gt;cholinergic neuron&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;아드레날린&lt;/td&gt;
+      &lt;td&gt;adrenergic neuron&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;-what-are-glia-cells----advanced-&quot;&gt;[ What are Glia Cells ? - Advanced ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+Glia Cells 은 우리 뇌에 10% 도 안되는 부분을 차지하고 있는 Neurons 이 온전한 형태와 네트워크를 구성한 채로 유지할 수 있게 도와주는 아교 역할을 한다고 했다. 신경계에 전반적으로 중요한 역할을 하는 Glia Cell 중에서도  3가지의 중요한 세포가 있는데, 이에 대하여 더욱 자세하게 알아보자.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; 성상교 세포 (Astrocytes Glia)&lt;/p&gt;
+
+&lt;p&gt;뇌에서 가장 많은 부분을 차지한다. 여기서 astro 라는 접두사는 별을 뜻하는데 별 모양을 띠고 있어서 그렇다.&lt;/p&gt;
+
+&lt;p&gt;뉴런 사이의 빈 공간을 채워주고 Neurites 의 성장에도 지대한 영향을 끼친다.&lt;/p&gt;
+
+&lt;p&gt;또한 최근 연구에 따르면 신경 염증을 악화 또는 완화에 중요한 역할을 한다고 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Myelinating Glia cell&lt;/p&gt;
+
+&lt;p&gt;중추신경계 (CNS) 에 있으면 희소돌기아교 세포 (Oligodendroglia cell)&lt;/p&gt;
+
+&lt;p&gt;말초신경계 (PNS) 에 있으면 우리가 잘 아는 슈반 세포 (Schwann cell) 라고 부른다.&lt;/p&gt;
+
+&lt;p&gt;위치에 따라 명칭이 나뉘는 것 뿐, 전기 신호의 강도를 유지시키고 Axons 을 절연하는 기능은 동일하다.&lt;/p&gt;
+
+&lt;p&gt;여기서 Node of ranvier (랑비에 결절) 도 추가적으로 알면 좋다. 
+( Myelinating Glia cell 로 감싸져 있지 못하고 노출되어 있는 액손의 막 부위를 뜻한다. )&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; 미세아교 세포 (Microglia cell)&lt;/p&gt;
+
+&lt;p&gt;뇌는 만일의 사태에 대비하여 혈액-뇌 장벽 ( Blood-Brain Barrier, BBB ) 이라는 생체 장벽을 만들었다.&lt;/p&gt;
+
+&lt;p&gt;이에 항원이나 혈액 내 잠재적인 위험 요소들, 심지어 항체도 들어가지 못한다. &lt;del&gt;거진 히키코모리다.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;그래서 뇌 안에서는 자립적으로 Microglia cell 이 면역 시스템인 식세포 작용을 담당한다.&lt;/p&gt;
+
+&lt;p&gt;또한 필요하지 않은 과도한 Neurites 를 제거하기도 한다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">[ What are Glia Cells ? ] 뇌를 구성하는 중요한 세포로 Glia Cell 과 Neurons 가 있다.</summary></entry></feed>
