@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-05T15:14:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="http://localhost:4000/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>http://localhost:4000/ns1</id><content type="html" xml:base="http://localhost:4000/ns1">&lt;h3 id=&quot;-what-are-glia-cells--&quot;&gt;[ What are Glia Cells ? ]&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ez-neurai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" /><updated>2021-06-05T16:13:05+09:00</updated><id>https://ez-neurai.github.io/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="https://ez-neurai.github.io/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>https://ez-neurai.github.io/ns1</id><content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-what-are-glia-cells--&quot;&gt;[ What are Glia Cells ? ]&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
 뇌를 구성하는 중요한 세포로 Glia Cell 과 Neurons 가 있다.&lt;/p&gt;
 
@@ -49,8 +54,9 @@ The nissl stain 이라는 새로운 염색법을 개발해냈다. 그러나 세�
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;--본격적인-뇌-연구의-시작을-알린-golgi-stain-&quot;&gt;[  본격적인 뇌 연구의 시작을 알린 Golgi Stain ]&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
-이탈리아 해부학자인 Camillo Golgi 는 Golgi stain 이라는 새로운 염색 기법을 개발했다.
-이 염색법을 이용해 세포체에서 뻗어나오는 신경돌기를 확인할 수 있었다.&lt;/p&gt;
+이탈리아 해부학자인 Camillo Golgi 는 Golgi stain 이라는 새로운 염색 기법을 개발했다.&lt;/p&gt;
+
+&lt;p&gt;이 염색법을 이용해 세포체에서 뻗어나오는 신경돌기를 확인할 수 있었다.&lt;/p&gt;
 
 &lt;p&gt;다른 뉴런에 신호를 전달하는 통로 역할인 &lt;strong&gt;Axons&lt;/strong&gt; 과
 다른 뉴런들로부터 신호를 받아들이는 안테나 역할인 &lt;strong&gt;Dendrites&lt;/strong&gt; 로 나누어 명명했고 
@@ -61,10 +67,15 @@ The nissl stain 이라는 새로운 염색법을 개발해냈다. 그러나 세�
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/120021506-1c3d4600-c026-11eb-8d88-e3c28bc5f1fa.png&quot; alt=&quot;제목 없음&quot; /&gt;
 &lt;br /&gt;
-&lt;br /&gt;
-Soma ( = Cell body ) 안에는 Cytosol (세포 안에 모든 액체적인 부분) 과 Organelle (막으로 구성된 소기관) 그리고 Cytoplasm (핵을 제외한 Cytosol + Organelle) 이 있다. 포함 관계에 대해서는 내가 열심히 그린 참고 자료를 통해 이해하는 것이 효율적이다.&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;뉴런의 막은 Cytoplasm 과 인접하여 보호하는 역할을 하므로 5 nm 로 두껍다. 그리고 막에 있는 단백질의 조성이 일반 세포들과는 다르다. 특히나 뉴런 안에서도 막의 종류에 따라 단백질 조성이 달라지기 때문에 구분지어 &lt;strong&gt;Neuronal membrane&lt;/strong&gt; 이라 부른다. 다음 챕터에서 중요하게 다루니 기억해두자.&lt;/p&gt;
+&lt;p&gt;Soma ( = Cell body ) 안에는 Cytosol (세포 안에 모든 액체적인 부분) 과 Organelle (막으로 구성된 소기관) 그리고 Cytoplasm (핵을 제외한 Cytosol + Organelle) 이 있다.&lt;/p&gt;
+
+&lt;p&gt;포함 관계에 대해서는 내가 열심히 그린 참고 자료를 통해 이해하는 것이 효율적이다.&lt;/p&gt;
+
+&lt;p&gt;뉴런의 막은 Cytoplasm 과 인접하여 보호하는 역할을 하므로 5 nm 로 두껍다. 그리고 막에 있는 단백질의 조성이 일반 세포들과는 다르다.&lt;/p&gt;
+
+&lt;p&gt;특히나 뉴런 안에서도 막의 종류에 따라 단백질 조성이 달라지기 때문에 구분지어 &lt;strong&gt;Neuronal membrane&lt;/strong&gt; 이라 부른다. 다음 챕터에서 중요하게 다루니 기억해두자.&lt;/p&gt;
 
 &lt;p&gt;뉴런도 다른 세포들처럼 세포의 구조를 결정하는 Cytoskeleton 이 존재한다. 뉴런들은 일반 세포들과는 다른 특이한 구조를 지녔기 때문에 그 뼈대가 중요한 역할을 한다. 이러한 뼈대들은 길어지기도 하고 짧아지기도 하는 가변성으로 뉴런의 모양을 변화시킨다.
 &lt;br /&gt;&lt;/p&gt;
@@ -175,7 +186,7 @@ Substantia nigra ( 어두운 부분 ) 를 관찰할 수 있다.&lt;/p&gt;
 &lt;h3 id=&quot;-what-is-a-dendrite--&quot;&gt;[ What is a Dendrite ? ]&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Dendrite 는 다른 뉴런에서 오는 신호의 &lt;strong&gt;입력&lt;/strong&gt;으로 작용한다. 그리고 뉴런의 Soma 로 입력 신호를 전달한다. &lt;del&gt;( 정확한 표현은 전도이다. )&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;Dendrite 는 다른 뉴런에서 오는 신호의 &lt;strong&gt;입력&lt;/strong&gt;으로 작용한다. 그리고 뉴런의 Soma 로 입력 신호를 전달한다. ( 정확한 표현은 전도이다. )&lt;/p&gt;
 
 &lt;p&gt;그리스어 Tree 에서 유래했다. 왜냐하면 하나의 뉴런이 다수의 다른 뉴런들로부터 신호를 전달받고&lt;/p&gt;
 
@@ -292,8 +303,8 @@ Glia Cells 은 우리 뇌에 10% 도 안되는 부분을 차지하고 있는 Neu
 
 &lt;p&gt;뇌는 만일의 사태에 대비하여 혈액-뇌 장벽 ( Blood-Brain Barrier, BBB ) 이라는 생체 장벽을 만들었다.&lt;/p&gt;
 
-&lt;p&gt;이에 항원이나 혈액 내 잠재적인 위험 요소들, 심지어 항체도 들어가지 못한다. &lt;del&gt;거진 히키코모리다.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;이에 항원이나 혈액 내 잠재적인 위험 요소들, 심지어 항체도 들어가지 못한다.&lt;/p&gt;
 
 &lt;p&gt;그래서 뇌 안에서는 자립적으로 Microglia cell 이 면역 시스템인 식세포 작용을 담당한다.&lt;/p&gt;
 
-&lt;p&gt;또한 필요하지 않은 과도한 Neurites 를 제거하기도 한다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">[ What are Glia Cells ? ] 뇌를 구성하는 중요한 세포로 Glia Cell 과 Neurons 가 있다.</summary></entry></feed>
+&lt;p&gt;또한 필요하지 않은 과도한 Neurites 를 제거하기도 한다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Chapter 01 / Glia Cell and Neuron</summary></entry></feed>
