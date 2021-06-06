@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://ez-neurai.github.io/tag/neuroscience/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-06-05T17:34:29+09:00</updated>
+  <updated>2021-06-07T01:23:14+09:00</updated>
   <id>https://ez-neurai.github.io/tag/neuroscience/feed.xml</id>
 
   
@@ -39,8 +39,12 @@
       <id>https://ez-neurai.github.io/ns1</id>
       <content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;-what-are-glia-cells--&quot;&gt;[ What are Glia Cells ? ]&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
@@ -372,7 +376,138 @@ Glia Cells 은 우리 뇌에 10% 도 안되는 부분을 차지하고 있는 Neu
       
 
       
-        <summary type="html">Neuroscience Index Chapter 01 / Glia Cell and Neuron</summary>
+        <summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Prologue</title>
+      <link href="https://ez-neurai.github.io/ns0" rel="alternate" type="text/html" title="Prologue" />
+      <published>2021-03-10T22:20:00+09:00</published>
+      <updated>2021-03-10T22:20:00+09:00</updated>
+      <id>https://ez-neurai.github.io/ns0</id>
+      <content type="html" xml:base="https://ez-neurai.github.io/ns0">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;사람의 뇌는 이렇게 불린다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;” 손바닥에 들어오는 우주 “&lt;/em&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;그만큼 많은 미스테리를 지닌 미지의 영역이며 기술 진보에 있어 필수적인 존재이다.&lt;/p&gt;
+
+&lt;p&gt;알츠하이머병이나 뚜렛 증후군과 같은 신경 질환 치료, 뇌의 신경망을 모방한 딥러닝 기술,&lt;/p&gt;
+
+&lt;p&gt;그리고 &lt;strong&gt;BCI 기술&lt;/strong&gt;이 대표적인 예이다. ( BCI 기술에 대해서는 Technology 에서 자세히 다룰 예정이다. )&lt;/p&gt;
+
+&lt;p&gt;이처럼 뇌를 이해해야만 기술을 이해할 수 있고 응용이 가능해지는 것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Neuroscience 는 생명과학, 화학, 물리학부터 시작해서 컴퓨터 과학, 심리학, 의학 등&lt;/p&gt;
+
+&lt;p&gt;다학제 간 연구로 생겨난 신생 학제이기 때문에 어느 분야든 접점이 존재한다.&lt;/p&gt;
+
+&lt;p&gt;무엇보다 우리가 평생 들고 다녀야 하는 1.5 kg 소우주에 대해 알아둔다면 분명 유용할 것이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-뇌-과학의-역사-&quot;&gt;[ 뇌 과학의 역사 ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;선사 시대에 살던 우리 조상들도 머리가 중요한 부위라는 것을 이미 알고 있었다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;선사 시대 유골을 발굴했을 때, 외부적인 충격에 의해 깨진 두개골을 흔히 발견할 수 있다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;과거 의학에서 두통이나 간질같은 정신 질환은 두개골을 둥글게 도려내어 치료했다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;단순히 악령이 머릿속에 돌아다닌다고 생각하여 빠져나갈 수 있도록 구멍을 만들었다고 한다.&lt;/p&gt;
+
+&lt;p&gt;물론 마취라는 개념이 없던 시절이다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;뇌에 대해 확실히 알기 위해서 사형수들의 머리를 해부해 확인했다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;여러 사형수들의 뇌를 해부하면서 공통점을 발견했고, 대뇌에 4개의 엽(lobe)을 구분해 명명했다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/110485579-26d6f600-812f-11eb-9e1d-6b17024c10db.jpg&quot; width=&quot;400px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;여기서 temporal lobe 의 temporal 은 time 즉, 시간이라는 그리스어에서 기원했다고 한다.&lt;/p&gt;
+
+&lt;p&gt;왜냐하면 나이가 들면서 흰머리가 처음으로 생기는 부위가 옆머리이기에&lt;/p&gt;
+
+&lt;p&gt;그때 당시 사람들은 “옆머리를 통해 시간이 느껴진다.” 라고 생각했기 때문이다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;환자의 증상을 통해 뇌의 부위에 따라 기능이 나뉜다는 사실을 알게 됐다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Paul Broca 라는 외과 의사는 의미는 이해하지만 말을 하지 못하는 환자를 진찰했다.&lt;/p&gt;
+
+&lt;p&gt;증상을 보고 의미 이해를 담당하는 뇌 부위에는 이상이 없지만 언어 표현을 하는 부위에는 이상이 있다고 생각했다.&lt;/p&gt;
+
+&lt;p&gt;환자보다 자신이 더 오래 살길 기도하면서 생을 마감할 때까지 기다리고 해부를 했다고 한다.&lt;/p&gt;
+
+&lt;p&gt;실제로 뇌의 부위 중에 손상된 부위를 확인했고 언어 표현 능력과 연관이 있는지 여러 번의 검증을 통해 입증했다.&lt;/p&gt;
+
+&lt;p&gt;추후 이 업적을 길러 해당 부위를 브로카 영역이라 명명했다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;마무리&quot;&gt;마무리&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+못다한 말을 여기서 하고 글을 마치고자 한다.&lt;/p&gt;
+
+&lt;p&gt;우선 이 블로그는 개인적인 공부와 생각 정리를 위해 만든 공간이다.&lt;/p&gt;
+
+&lt;p&gt;블로그는 [Github Blog]: https://github.com/ 를 사용한다.&lt;/p&gt;
+
+&lt;p&gt;코드 작성의 편리함과 활발한 오픈 소스 활동을 위해 Github 로 결정했다.&lt;/p&gt;
+
+&lt;p&gt;아직 미숙한 단계이지만 점차 나아질 것이다.&lt;/p&gt;
+
+&lt;p&gt;그리고 앞으로의 Neuroscience 는 고등학교 수준의 생명과학 지식을 안다는 가정하에 진행할 것이니 양해바란다.&lt;/p&gt;
+
+&lt;p&gt;break;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="neuroscience" />
+      
+
+      
+        <summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron</summary>
       
 
       
