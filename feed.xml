@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ez-neurai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" /><updated>2021-06-07T01:23:14+09:00</updated><id>https://ez-neurai.github.io/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="https://ez-neurai.github.io/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>https://ez-neurai.github.io/ns1</id><content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ez-neurai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" /><updated>2021-06-07T15:54:23+09:00</updated><id>https://ez-neurai.github.io/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="https://ez-neurai.github.io/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>https://ez-neurai.github.io/ns1</id><content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
@@ -329,17 +329,17 @@ Glia Cells 은 우리 뇌에 10% 도 안되는 부분을 차지하고 있는 Neu
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;” 손바닥에 들어오는 우주 “&lt;/em&gt;
+&lt;p&gt;&lt;em&gt;손바닥에 들어오는 우주&lt;/em&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;그만큼 많은 미스테리를 지닌 미지의 영역이며 기술 진보에 있어 필수적인 존재이다.&lt;/p&gt;
+&lt;p&gt;그만큼 연구가 활발한 미지의 영역이며 기술 진보에 있어 필수적인 존재이다.&lt;/p&gt;
 
 &lt;p&gt;알츠하이머병이나 뚜렛 증후군과 같은 신경 질환 치료, 뇌의 신경망을 모방한 딥러닝 기술,&lt;/p&gt;
 
 &lt;p&gt;그리고 &lt;strong&gt;BCI 기술&lt;/strong&gt;이 대표적인 예이다. ( BCI 기술에 대해서는 Technology 에서 자세히 다룰 예정이다. )&lt;/p&gt;
 
-&lt;p&gt;이처럼 뇌를 이해해야만 기술을 이해할 수 있고 응용이 가능해지는 것이다.&lt;/p&gt;
+&lt;p&gt;이처럼 차세대 기술 개발에 있어 뇌 과학 연구는 필수불가결한 조건인 것이다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -348,7 +348,9 @@ Neuroscience 는 생명과학, 화학, 물리학부터 시작해서 컴퓨터 �
 
 &lt;p&gt;다학제 간 연구로 생겨난 신생 학제이기 때문에 어느 분야든 접점이 존재한다.&lt;/p&gt;
 
-&lt;p&gt;무엇보다 우리가 평생 들고 다녀야 하는 1.5 kg 소우주에 대해 알아둔다면 분명 유용할 것이다.&lt;/p&gt;
+&lt;p&gt;그러니 뇌 과학에 거부감을 느끼지 않았으면 한다.&lt;/p&gt;
+
+&lt;p&gt;뇌 과학의 역사부터 천천히 알아보도록 하자.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -359,7 +361,9 @@ Neuroscience 는 생명과학, 화학, 물리학부터 시작해서 컴퓨터 �
   &lt;p&gt;선사 시대에 살던 우리 조상들도 머리가 중요한 부위라는 것을 이미 알고 있었다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;선사 시대 유골을 발굴했을 때, 외부적인 충격에 의해 깨진 두개골을 흔히 발견할 수 있다.&lt;/p&gt;
+&lt;p&gt;선사 시대 유골을 발굴할 때 외부적인 충격에 의해 깨진 두개골들이 흔히 발견된다.&lt;/p&gt;
+
+&lt;p&gt;부족 간 다툼을 통해 머리가 취약점인 것을 알고 집중적으로 공격했음을 미루어 짐작할 수 있다.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;과거 의학에서 두통이나 간질같은 정신 질환은 두개골을 둥글게 도려내어 치료했다.&lt;/p&gt;
@@ -401,16 +405,10 @@ Neuroscience 는 생명과학, 화학, 물리학부터 시작해서 컴퓨터 �
 
 &lt;h3 id=&quot;마무리&quot;&gt;마무리&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
-못다한 말을 여기서 하고 글을 마치고자 한다.&lt;/p&gt;
+짧게나마 뇌 과학의 역사에 대해 알아보았다.&lt;/p&gt;
 
-&lt;p&gt;우선 이 블로그는 개인적인 공부와 생각 정리를 위해 만든 공간이다.&lt;/p&gt;
+&lt;p&gt;사실 더욱 많은 내용을 담아야 했지만 생활 상식으로 쓰일 수 있는 부분만 발췌하여 작성했다.&lt;/p&gt;
 
-&lt;p&gt;블로그는 [Github Blog]: https://github.com/ 를 사용한다.&lt;/p&gt;
+&lt;p&gt;앞으로의 Neuroscience 는 최대한 이해하기 쉽도록 자세히 다룰 예정이다.&lt;/p&gt;
 
-&lt;p&gt;코드 작성의 편리함과 활발한 오픈 소스 활동을 위해 Github 로 결정했다.&lt;/p&gt;
-
-&lt;p&gt;아직 미숙한 단계이지만 점차 나아질 것이다.&lt;/p&gt;
-
-&lt;p&gt;그리고 앞으로의 Neuroscience 는 고등학교 수준의 생명과학 지식을 안다는 가정하에 진행할 것이니 양해바란다.&lt;/p&gt;
-
-&lt;p&gt;break;&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron</summary></entry></feed>
+&lt;p&gt;대신 고등학교 수준의 생명과학 지식을 안다는 가정하에 진행할 것이니 양해바란다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron</summary></entry></feed>
