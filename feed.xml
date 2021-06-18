@@ -1,7 +1,185 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ez-neurai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" /><updated>2021-06-07T15:54:23+09:00</updated><id>https://ez-neurai.github.io/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="https://ez-neurai.github.io/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>https://ez-neurai.github.io/ns1</id><content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ez-neurai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" /><updated>2021-06-19T03:08:35+09:00</updated><id>https://ez-neurai.github.io/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 02 :: The neuronal membrane at Rest</title><link href="https://ez-neurai.github.io/ns2" rel="alternate" type="text/html" title="Chapter 02 :: The neuronal membrane at Rest" /><published>2021-03-25T22:30:00+09:00</published><updated>2021-03-25T22:30:00+09:00</updated><id>https://ez-neurai.github.io/ns2</id><content type="html" xml:base="https://ez-neurai.github.io/ns2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;chapter-02---the-neuronal-membrane-at-rest&quot;&gt;Chapter 02 :  The neuronal Membrane at Rest&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Neuronal membrane 은 항상 Action potential 상태가 아니다.&lt;/p&gt;
+
+&lt;p&gt;우리가 일을 하고 적절한 휴식을 갖는 것처럼, 평상시에는 휴지 상태, 즉 Resting potential 이어야 한다.&lt;/p&gt;
+
+&lt;p&gt;항상 Action potential 이면 외부에서 자극이 주어져도 또 다른 흥분을 가져올 수 없으므로 신호 체계가 원활하게 작동하지 않기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;그리고 Neuronal membrane 이 다른  Cell membrane 과는 차별화되는 부분이 있다고 언급했었다.&lt;/p&gt;
+
+&lt;p&gt;이는 구성하고 있는 막 단백질이 다르기 때문이며  자세한 내용은 아래 내용들을 통해 다룰 것이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;-휴지-상태를-조성할-수-있는-요인들에-대하여-&quot;&gt;[ 휴지 상태를 조성할 수 있는 요인들에 대하여 ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cytosolic and Extracellular Fluid : 세포 안과 세포 밖의 액체 성분&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;전기 신호를 운반하는 데 있어 이온은 필수적이다. 이때 전기 음성도의 차이로&lt;/p&gt;
+
+&lt;p&gt;Uneven charge ( 고르지 않은 전하 분포 = 극성 ) 를 띠는 물은 이온을 만들어내는 데 있어 좋은 용매 역할을 한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The phospholipid membrane : 인지질 막&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;물이 아무리 좋은 용매라 하더라도 모든 분자를 이온화시킬 순 없다.&lt;/p&gt;
+
+&lt;p&gt;극성 분자 ( Hydrophilic ) 인 소금은 이온화시킬 수 있지만 기름과 같은 비극성 분자 ( Hydrophobic ) 는 이온화시킬 수 없다.&lt;/p&gt;
+
+&lt;p&gt;따라서 Polar ( 극성, 친수성) 한 머리와 Nonpolar ( 비극성, 소수성 ) 한 꼬리를 함께 가지고 있는 인지질 이중층 구조는 모두 이온화시킬 수 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Transmembrane protein : 막 단백질&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;단백질의 구조는  N 차로 나누어져 있다. 2차 구조에서는 대부분 꼬인 구조를 보인다.&lt;/p&gt;
+
+&lt;p&gt;왜냐하면 아미노산들의 R 그룹 성질에 따라 서로 끌어당기기도, 수소 결합을 형성하기도 하기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;아래의 사진처럼 2차 구조인 (좌) Alpha helix (우) Beta plated sheet 이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/122598706-27751600-d0a8-11eb-9515-6b522bd15c11.png&quot; alt=&quot;그림1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이러한 2차 구조들이 모여 3차 구조 ( Tertiary structure ) 를 형성하고 이러한 3차 구조가 여러 개 모여&lt;/p&gt;
+
+&lt;p&gt;하나의 기능을 수행하면 4차 구조 ( Quaternary structure  ) 라고 한다.&lt;/p&gt;
+
+&lt;p&gt;4차 구조를 띠는 Transmembrane protein 이 뉴런의 신경 신호 전달 기능에 중요한 역할을 한다.&lt;/p&gt;
+
+&lt;p&gt;그 역할로 대표적인 2가지가 있다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Channel proteins&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;특정 이온에 대한 선택적 투과성 ( Ion Selectivity and Gating ) 을 지닌다. 쉽게 말해서 입구컷한다는 것이다.&lt;/p&gt;
+
+  &lt;p&gt;이러한 기작에 의해 뉴런이 자극이 없을 때는 Resting potential, 자극이 있을 때는 Action potential 할 수 있는 것이다.&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Ion pumps&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;농도에 의한 확산을 ATP 를 이용해 역행하여 특정 이온을 밖으로 내보내거나 안으로 들여보내는 역할을 한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-membrane-potential-에-대하여-&quot;&gt;[ Membrane potential 에 대하여 ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;뉴런의 세포막을 기준으로 밖과 안의 전위차를 membrane potential 줄여서, &lt;strong&gt;Vm&lt;/strong&gt; 이라 한다.&lt;/p&gt;
+
+&lt;p&gt;측정 방법 :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Microelectrode 에 열을 가하여 늘리면 0.5 μm 로 매우 가늘어진다.&lt;/li&gt;
+  &lt;li&gt;전해질로 가득 차 있는 Microelectro 을 뉴런에 넣고, 비교를 위한 접지 (Ground) 를 준비한다.&lt;/li&gt;
+  &lt;li&gt;이들 사이의 전위차를 확인할 Voltmeter 을 준비하여 측정한다.&lt;/li&gt;
+  &lt;li&gt;일반적인 Resting potential 의 Vm은 -65 mV 이다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-평형-전위-equilibrium-potentials-를-결정짓는-4가지의-중요한-포인트-&quot;&gt;[ 평형 전위 (Equilibrium Potentials) 를 결정짓는 4가지의 중요한 포인트 ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Equilibrium Potential ; 막을 사이에 두고 양 쪽의 이온이 전기화학적으로 평형을 이룬 상태에서의 전위
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;최소의 이온 농도 변화&lt;/strong&gt;만으로도 &lt;strong&gt;큰 Vm 의 변화&lt;/strong&gt;를 이끌 수 있다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ca2+ 의 세포막 안쪽 농도를 0.0001 mM 낮춘다면 비율은 20,000 : 1 로 크게 바뀐다. 
+이 비율이 Vm 변화에 어떻게 영향을 끼치는지에 대해서는 아래에서 수식을 통해 확인할 것이다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/122598757-3956b900-d0a8-11eb-8bce-fe1494dc9742.png&quot; alt=&quot;그림2&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Vm 과 Eion 값의 차이가 존재할 때 이온은 이동성을 가지며, 이는 Ionic driving force 와 순이동이 존재함을 의미한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;그리 어려운 내용이 아니다. 용어 정리를 보면 쉽게 이해된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Vm : 평형 전위에 도달하지 못한 membrane potential 
+Eion : 평형 전위에 도달한 membrane potential
+Ionic driving force : 이온을 움직일 수 있게 해주는 힘
+순이동 : 양쪽 모두 이동하는 양이 같기에 이동하지 않은 것처럼 보이는 이동
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;즉, Vm = Eion 이라면 Ionic driving force 가 0 의 값을 갖게 되고 순이동이 없다는 것이다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;세포 안과 밖의 농도의 차이를 안다면 평형 전위 ( Eion ) 를 알 수 있다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/122598787-44114e00-d0a8-11eb-9096-710d76fafc10.PNG&quot; alt=&quot;캡11처&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;네른스트 방정식 ( The nernst equation ), 꼴받는 수식이 보이지만 별 건 없다.&lt;/p&gt;
+
+&lt;p&gt;우선 F 와 R 은 Faraday’s constant, Gas constant 로 상수이다. 무시해도 된다.&lt;/p&gt;
+
+&lt;p&gt;T (Temperature) 와 이온의 확산은 비례 관계를,  이온의 전하량 (z) 과 이온의 확산은 반비례 관계를 나타낸다.&lt;/p&gt;
+
+&lt;p&gt;이 변수들은 Eion 의 값에 큰 영향을 끼치지 못한다.&lt;/p&gt;
+
+&lt;p&gt;그래서 우리는 이온의 농도에 주목해야 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-goldman-equation-에-대하여-&quot;&gt;[ Goldman equation 에 대하여 ]&lt;/h3&gt;
+
+&lt;p&gt;네른스트 방정식은 이상적이다. 그래서 현실적인 membrane potential 을 계산하기 위해서 Glodman equation 을 만들었다.&lt;/p&gt;
+
+&lt;p&gt;Goldman equation 은 하나의 이온만이 아닌 여러 이온을 고려하고 [k+], [Na+]&lt;/p&gt;
+
+&lt;p&gt;각 이온마다 다른 값을 가지는 막 투과성 ( membrane permeability ) 도 고려했다. Pk, PNa&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/122598820-4ecbe300-d0a8-11eb-8a4a-60136215f458.png&quot; alt=&quot;그림4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-k-이온의-중요성에-대하여-&quot;&gt;[ K+ 이온의 중요성에 대하여 ]&lt;/h3&gt;
+
+&lt;p&gt;세포 바깥의 K+ 농도가 이미 높으면 탈분극 ( Depolarization ) 이 일어난 상태와 동일하기 때문에 신경 신호를 제대로 전달할 수 없게 된다.&lt;/p&gt;
+
+&lt;p&gt;그래서 우리 뇌는 자발적으로 K+ 농도 조절에 관여한다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;혈액-뇌 장벽 ( blood brain barrier, BBB ) 으로 뉴런 안으로 외부의 K+ 이온이 들어오는 것을 최대한 막는다. 전에 말했듯이 BBB 는 항체도 막는다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Astrocytes Glia 은 K+ 농도가 높으면 흡수하고 낮으면 세포 바깥 공간으로 방출하는 조절 기작을 보인다. 특정 물질의 농도나 pH 를 일정한 범위 내에서 완충하거나 조절하는 현상을 Buffer 라고 한다. 그래서 이 현상을 Potassium spatial buffering by Astrocyte 로 부른다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;여담으로 영화를 보면 마피아의 타겟이 된 사람이 병실에 누워있을 때 몰래 잠입해서 링겔 안에 무언가를 주입하는데, 바로 KCl 이다.&lt;/p&gt;
+
+&lt;p&gt;순식간에 높아진 체내의 K+ 이온은 근육, 심장, 뇌를 모두 반갈죽낸다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest</summary></entry><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="https://ez-neurai.github.io/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>https://ez-neurai.github.io/ns1</id><content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -316,10 +494,11 @@ Glia Cells 은 우리 뇌에 10% 도 안되는 부분을 차지하고 있는 Neu
 
 &lt;p&gt;그래서 뇌 안에서는 자립적으로 Microglia cell 이 면역 시스템인 식세포 작용을 담당한다.&lt;/p&gt;
 
-&lt;p&gt;또한 필요하지 않은 과도한 Neurites 를 제거하기도 한다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron</summary></entry><entry><title type="html">Prologue</title><link href="https://ez-neurai.github.io/ns0" rel="alternate" type="text/html" title="Prologue" /><published>2021-03-10T22:20:00+09:00</published><updated>2021-03-10T22:20:00+09:00</updated><id>https://ez-neurai.github.io/ns0</id><content type="html" xml:base="https://ez-neurai.github.io/ns0">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;또한 필요하지 않은 과도한 Neurites 를 제거하기도 한다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest</summary></entry><entry><title type="html">Prologue</title><link href="https://ez-neurai.github.io/ns0" rel="alternate" type="text/html" title="Prologue" /><published>2021-03-10T22:20:00+09:00</published><updated>2021-03-10T22:20:00+09:00</updated><id>https://ez-neurai.github.io/ns0</id><content type="html" xml:base="https://ez-neurai.github.io/ns0">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -411,4 +590,4 @@ Neuroscience 는 생명과학, 화학, 물리학부터 시작해서 컴퓨터 �
 
 &lt;p&gt;앞으로의 Neuroscience 는 최대한 이해하기 쉽도록 자세히 다룰 예정이다.&lt;/p&gt;
 
-&lt;p&gt;대신 고등학교 수준의 생명과학 지식을 안다는 가정하에 진행할 것이니 양해바란다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron</summary></entry></feed>
+&lt;p&gt;대신 고등학교 수준의 생명과학 지식을 안다는 가정하에 진행할 것이니 양해바란다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest</summary></entry></feed>
