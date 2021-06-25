@@ -1,14 +1,210 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ez-neurai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" /><updated>2021-06-19T03:08:35+09:00</updated><id>https://ez-neurai.github.io/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 02 :: The neuronal membrane at Rest</title><link href="https://ez-neurai.github.io/ns2" rel="alternate" type="text/html" title="Chapter 02 :: The neuronal membrane at Rest" /><published>2021-03-25T22:30:00+09:00</published><updated>2021-03-25T22:30:00+09:00</updated><id>https://ez-neurai.github.io/ns2</id><content type="html" xml:base="https://ez-neurai.github.io/ns2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ez-neurai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" /><updated>2021-06-26T01:54:19+09:00</updated><id>https://ez-neurai.github.io/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 03 :: The action potential</title><link href="https://ez-neurai.github.io/ns3" rel="alternate" type="text/html" title="Chapter 03 :: The action potential" /><published>2021-04-21T04:15:00+09:00</published><updated>2021-04-21T04:15:00+09:00</updated><id>https://ez-neurai.github.io/ns3</id><content type="html" xml:base="https://ez-neurai.github.io/ns3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns3&quot;&gt;Chapter 03 / The action potential &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;chapter-02---the-neuronal-membrane-at-rest&quot;&gt;Chapter 02 :  The neuronal Membrane at Rest&lt;/h1&gt;
+&lt;h1 id=&quot;the-action-potential&quot;&gt;The action potential&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;시작하기에 앞서,&lt;/p&gt;
+
+  &lt;p&gt;Na+ = Sodium ion&lt;/p&gt;
+
+  &lt;p&gt;K+ = Potassium ion&lt;/p&gt;
+
+  &lt;p&gt;을 알아두자.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;세포 내 공간( Cytosol ) 이 세포 외 공간보다 음전하를 상대적으로 많이 띤 상태 즉, &lt;strong&gt;Resting potential 이 깨지는 상태&lt;/strong&gt;를 뜻한다.&lt;/p&gt;
+
+&lt;p&gt;신경계에서 정보를 전달하는 방식이며 Spike, Nerve impulse, Discharge 라고도 불린다.&lt;/p&gt;
+
+&lt;p&gt;Action potential 이 형성되는 frequency 와 pattern 을 보고 자극의 강도를 알 수 있다.&lt;/p&gt;
+
+&lt;p&gt;이렇게 frequency 와 pattern 이 합쳐져서 의미를 가지게 되는 것을 Neural code 라고 한다.&lt;/p&gt;
+
+&lt;p&gt;Resting potential 과 달리 Action potential 은 순간적으로 전위차가 변하기 때문에 일반적인 voltmeter 로는 Vm 을 측정할 수 없다.&lt;/p&gt;
+
+&lt;p&gt;그래서 Oscilloscope 라는 다른 voltmeter 를 사용하며, 이를 이용해 우리가 익히 알고 있는 막전위 그래프를 만들었다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/123457009-737f0800-d61e-11eb-9f07-fef09672a12e.png&quot; alt=&quot;1037px-Action_potential svg&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-탈분극--depolarization--의-발생-&quot;&gt;[ 탈분극 ( Depolarization ) 의 발생 ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open Na+ permeable channels : 자극에 의해 휴지 전위인 -70 mV 에서 -55 mV 까지 상승하여 Voltage-gated channel 이 열린다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Na+ influx : Na+ 이온이 세포 안쪽으로 유입된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Depolarized membrane : 막전위가 +40 mV 까지 변화하는데 이를 탈분극이라 한다.&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;여기서 중요하게 다룰 점은,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;올라가는 구간 ( Rising phase ) 에서는 소듐 이온 ( Na+ ) 의 유입 / 떨어지는 구간 ( Falling phase ) 에서는 포타슘 이온 ( K+ ) 의 유출&lt;/li&gt;
+  &lt;li&gt;실무율의 법칙 ( all or none law ) : &lt;strong&gt;threshold&lt;/strong&gt; (역치 이상) 에 도달해야만 Na+ 채널이 열리고 탈분극이 발생한다. 대부분 -55 mV 가 역치이다.&lt;/li&gt;
+  &lt;li&gt;자극의 세기가 증가할수록 Action potential 의 빈도가 증가한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;자극의 세기가 증가할수록 그 크기가 증가하는 것이 아닌 빈도가 증가한다.&lt;/p&gt;
+
+&lt;p&gt;하지만 계속 자극의 세기를 높인다 하더라도 Na+ channel 이 열리고 닫히는 물리적인 시간에 의해 빈도에는 한계가 존재한다.&lt;/p&gt;
+
+&lt;p&gt;이에 대해 절대적 불응기 ( Absolute refractory period ) 와 상대적 불응기 ( Relative refractory period ) 로 나뉜다.&lt;/p&gt;
+
+&lt;p&gt;절대적 불응기 : 활동 전위가 일어난 직후, 아무리 강한 자극이 주어져도 뉴런이 더 이상 활동 전위를 일으킬 수 없는 구간&lt;/p&gt;
+
+&lt;p&gt;→ 탈분극 구간 ( Depolarization ) , 재분극 구간 ( Repolarization )&lt;/p&gt;
+
+&lt;p&gt;상대적 불응기 : 활동 전위가 일어난 직후, 새로운 활동 전위를 일으킬 수는 있으나 그러기 위해서는 평소보다 더 강한 자극을 필요로 하는 구간&lt;/p&gt;
+
+&lt;p&gt;→ 과분극 구간 ( Hyperolarization ) : 과분극된 막전위를 역치 이상으로 끌어올리기 위해서는 더 강한 자극이 필요하다.&lt;/p&gt;
+
+&lt;h3 id=&quot;-voltage-gated-sodium-channel-&quot;&gt;[ Voltage-Gated Sodium channel ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/123457187-a0cbb600-d61e-11eb-9e0b-60e98dcd8175.jpeg&quot; alt=&quot;82_1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;네 개의 도메인 ( 1 ~ 6 까지 하나의 도메인 ) 으로 이루어져 있는, 하나로 길게 결합된 폴리펩타이드 결합을 하고 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;도메인 ( Domain ) 이란?&lt;/p&gt;
+
+  &lt;p&gt;우선 도메인은 polypeptide chain 의 일부가 독립적으로 접혀져 안정된 구조를 취한 상태를 뜻한다.&lt;/p&gt;
+
+  &lt;p&gt;일반적으로 폴리펩타이드는 하나 이상의 도메인으로 구성되어 있다.&lt;/p&gt;
+
+  &lt;p&gt;도메인들을 모양에 따라 분류할 수 있는데, 저번 시간에 단백질의 구조에 대해 언급한 부분을 확인해보자.&lt;/p&gt;
+
+  &lt;p&gt;α-helix 구조,  β-plated sheet 구조, α-helix +  β-sheet 구조로 나뉜다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;각 도메인은 막을 여섯 번 가로지르는 α-helix 구조를 하고 있다. 막을 가로지르지 않고 걸쳐있는 부분을 확인할 수 있는데 이를 Pore loop 라고 한다.&lt;/p&gt;
+
+&lt;p&gt;이러한 Pore loop 4 개가 모이면 소듐 이온만 통과할 수 있도록 하는 Pore selectivity 가 생긴다. Na+ Channel 은 Na+ 에 대하여 K+ 보다 12 배가 넘는 투과성 ( Permeability ) 을 지닌다.&lt;/p&gt;
+
+&lt;p&gt;또한 사진을 보면 Voltage sensing 을 확인할 수 있는데,&lt;/p&gt;
+
+&lt;p&gt;평상시에는 자극이 주어지지 않아 닫혀있던 Na+ Channel 이 탈분극된다면&lt;/p&gt;
+
+&lt;p&gt;+극을 띠는 Voltage sensor 가 +극을 띠는 Na+ 와 만나, 척력으로 닫혀있던 통로가 열리게 된다. Na+ 가 세포 안쪽으로 유입된다.&lt;/p&gt;
+
+&lt;p&gt;따라서 Voltage-Gated Sodium channel 은 Voltage 변화를 감지해 열렸다 닫혔다를 반복하면서 Na+ 의 흐름을 조절한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-the-voltage-gated-sodium-channel-의-기능적인-특성-&quot;&gt;[ The voltage-gated Sodium channel 의 기능적인 특성 ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;약간의 지연 시간을 갖고 열린다.&lt;/li&gt;
+  &lt;li&gt;대략 1 msec 동안 통로가 열린다.&lt;/li&gt;
+  &lt;li&gt;탈분극으로 다시 열 수 없다. → 이로 인해 Absolute refractory period 가 발생하는 것이다. ( Channel 이 비활성화되기 때문이다. )&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-toxins-as-experimental-tools-&quot;&gt;[ Toxins as experimental tools ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;신경계를 연구할 때 신경 독이 주로 쓰였다.&lt;/p&gt;
+
+&lt;p&gt;독의 종류와 과다 투여되었을 때 어떠한 증상을 보이는지 알아보겠다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;batrachotoxin ( frog ) : Na+ Channel 이 차단 기능을 상실하여 통로가 열려있는 상태가 지속됨.  과흥분 상태로 사망.&lt;/li&gt;
+  &lt;li&gt;saxitoxin ( red tide ) : Na+ Channel 의 permeable pore 을 막음.&lt;/li&gt;
+  &lt;li&gt;veratridine ( lilies ) : Na+ Channel 자체가 비활성화됨.&lt;/li&gt;
+  &lt;li&gt;aconitine ( buttercups ) : Na+ Channel 자체가 비활성화됨.&lt;/li&gt;
+  &lt;li&gt;tetrodotoxin ( TTX ) : Na+ Channel 의 permeable pore을 막음.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-potassium-channel-vs-sodium-channel-&quot;&gt;[ Potassium channel vs. Sodium channel ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;두 종류의 Channel 모두 Depolarization 상태일 때 열리지만 Sodium gates 가 열린 것을 감지하고 그 다음 Potassium channel 이 열린다.&lt;/p&gt;
+
+&lt;p&gt;Sodium Channel 이 열려서 생겨난 Action potential 을 Potassium channel 이 Resting potential 로 되돌리기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;그래서 Potassium Channel 을 &lt;strong&gt;Delayed rectifier&lt;/strong&gt; 라고도 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-action-potential-이-전달되는-속도-결정-요인-&quot;&gt;[ Action potential 이 전달되는 속도 결정 요인 ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;우선 전도 방향에 따라 아래와 같이 나뉜다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;용어&lt;/th&gt;
+      &lt;th&gt;방향&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Orthodromic&lt;/td&gt;
+      &lt;td&gt;Dendrites → Axon terminal&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Antidromic ( 실험적으로 유도되는 경우가 많다, 인위적 )&lt;/td&gt;
+      &lt;td&gt;Axon terminal → Dendrites&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;전도 속도는 대략 10 msec 로 0.01 초이다.&lt;/p&gt;
+
+&lt;p&gt;이러한 전도 속도는 아래 요인들에 의해 결정된다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Axon 의 구조 : 일자로 된 포장 도로 vs. 구불구불한 비포장 도로&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;확산으로만 움직인다면 빠르고, 막을 가로지른다면 느려진다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Voltage-gated channels 의 수&lt;/li&gt;
+  &lt;li&gt;Myelinating cells 의 유무&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential</summary></entry><entry><title type="html">Chapter 02 :: The neuronal membrane at Rest</title><link href="https://ez-neurai.github.io/ns2" rel="alternate" type="text/html" title="Chapter 02 :: The neuronal membrane at Rest" /><published>2021-03-25T22:30:00+09:00</published><updated>2021-03-25T22:30:00+09:00</updated><id>https://ez-neurai.github.io/ns2</id><content type="html" xml:base="https://ez-neurai.github.io/ns2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns3&quot;&gt;Chapter 03 / The action potential &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-neuronal-membrane-at-rest&quot;&gt;The neuronal Membrane at Rest&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -68,7 +264,7 @@
     &lt;li&gt;Channel proteins&lt;/li&gt;
   &lt;/ul&gt;
 
-  &lt;p&gt;특정 이온에 대한 선택적 투과성 ( Ion Selectivity and Gating ) 을 지닌다. 쉽게 말해서 입구컷한다는 것이다.&lt;/p&gt;
+  &lt;p&gt;특정 이온에 대한 선택적 투과성 ( Ion Selectivity and Gating ) 을 지닌다.&lt;/p&gt;
 
   &lt;p&gt;이러한 기작에 의해 뉴런이 자극이 없을 때는 Resting potential, 자극이 있을 때는 Action potential 할 수 있는 것이다.&lt;/p&gt;
 
@@ -158,7 +354,7 @@ Ionic driving force : 이온을 움직일 수 있게 해주는 힘
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;-k-이온의-중요성에-대하여-&quot;&gt;[ K+ 이온의 중요성에 대하여 ]&lt;/h3&gt;
+&lt;h3 id=&quot;-k-의-중요성에-대하여-&quot;&gt;[ K+ 의 중요성에 대하여 ]&lt;/h3&gt;
 
 &lt;p&gt;세포 바깥의 K+ 농도가 이미 높으면 탈분극 ( Depolarization ) 이 일어난 상태와 동일하기 때문에 신경 신호를 제대로 전달할 수 없게 된다.&lt;/p&gt;
 
@@ -175,17 +371,18 @@ Ionic driving force : 이온을 움직일 수 있게 해주는 힘
 
 &lt;p&gt;여담으로 영화를 보면 마피아의 타겟이 된 사람이 병실에 누워있을 때 몰래 잠입해서 링겔 안에 무언가를 주입하는데, 바로 KCl 이다.&lt;/p&gt;
 
-&lt;p&gt;순식간에 높아진 체내의 K+ 이온은 근육, 심장, 뇌를 모두 반갈죽낸다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest</summary></entry><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="https://ez-neurai.github.io/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>https://ez-neurai.github.io/ns1</id><content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;순식간에 높아진 체내의 K+ 농도는 근육, 심장, 뇌를 모두 반갈죽낸다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential</summary></entry><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="https://ez-neurai.github.io/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>https://ez-neurai.github.io/ns1</id><content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns3&quot;&gt;Chapter 03 / The action potential &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;-what-are-glia-cells--&quot;&gt;[ What are Glia Cells ? ]&lt;/h3&gt;
+&lt;h1 id=&quot;glia-cell-and-neuron&quot;&gt;Glia Cell and Neuron&lt;/h1&gt;
 &lt;p&gt;&lt;br /&gt;
 뇌를 구성하는 중요한 세포로 Glia Cell 과 Neurons 가 있다.&lt;/p&gt;
 
@@ -203,6 +400,7 @@ Ionic driving force : 이온을 움직일 수 있게 해주는 힘
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;-뇌의-뉴런-구조를-파악하기-위해-해결해야-했던-3가지-문제--&quot;&gt;[ 뇌의 뉴런 구조를 파악하기 위해 해결해야 했던 3가지 문제  ]&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -367,7 +565,15 @@ Axon 은 뉴런의 &lt;strong&gt;출력&lt;/strong&gt;이며 다른 뉴런과의
 
 &lt;p&gt;앞서 말했듯이 타우 단백질에 문제가 생기면 Microtubules 합성에 문제가 생기고,&lt;/p&gt;
 
-&lt;p&gt;수송 단백질이 수송할 수 있도록 하는 선로가 망가져 결국엔 전반적인 신경 체계가 무너지게 되는 것이다.
+&lt;p&gt;수송 단백질이 수송할 수 있도록 하는 선로가 망가져 결국엔 전반적인 신경 체계가 무너지게 되는 것이다.&lt;/p&gt;
+
+&lt;p&gt;그리고 우리 몸 속에서 제일 귀엽다고 소문난 Kinesin 을 보자.&lt;/p&gt;
+
+&lt;p&gt;저 아장아장 걷는 게 발이 아닌 머리다.&lt;/p&gt;
+
+&lt;p&gt;진짜 귀엽다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/123456494-de7c0f00-d61d-11eb-9a45-2b1ebf62b1c4.gif&quot; alt=&quot;undefined - Imgur&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;-what-is-a-dendrite--&quot;&gt;[ What is a Dendrite ? ]&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
@@ -494,11 +700,12 @@ Glia Cells 은 우리 뇌에 10% 도 안되는 부분을 차지하고 있는 Neu
 
 &lt;p&gt;그래서 뇌 안에서는 자립적으로 Microglia cell 이 면역 시스템인 식세포 작용을 담당한다.&lt;/p&gt;
 
-&lt;p&gt;또한 필요하지 않은 과도한 Neurites 를 제거하기도 한다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest</summary></entry><entry><title type="html">Prologue</title><link href="https://ez-neurai.github.io/ns0" rel="alternate" type="text/html" title="Prologue" /><published>2021-03-10T22:20:00+09:00</published><updated>2021-03-10T22:20:00+09:00</updated><id>https://ez-neurai.github.io/ns0</id><content type="html" xml:base="https://ez-neurai.github.io/ns0">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;또한 필요하지 않은 과도한 Neurites 를 제거하기도 한다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential</summary></entry><entry><title type="html">Prologue</title><link href="https://ez-neurai.github.io/ns0" rel="alternate" type="text/html" title="Prologue" /><published>2021-03-10T22:20:00+09:00</published><updated>2021-03-10T22:20:00+09:00</updated><id>https://ez-neurai.github.io/ns0</id><content type="html" xml:base="https://ez-neurai.github.io/ns0">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns3&quot;&gt;Chapter 03 / The action potential &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -590,4 +797,4 @@ Neuroscience 는 생명과학, 화학, 물리학부터 시작해서 컴퓨터 �
 
 &lt;p&gt;앞으로의 Neuroscience 는 최대한 이해하기 쉽도록 자세히 다룰 예정이다.&lt;/p&gt;
 
-&lt;p&gt;대신 고등학교 수준의 생명과학 지식을 안다는 가정하에 진행할 것이니 양해바란다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest</summary></entry></feed>
+&lt;p&gt;대신 고등학교 수준의 생명과학 지식을 안다는 가정하에 진행할 것이니 양해바란다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential</summary></entry></feed>
