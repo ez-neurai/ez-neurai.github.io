@@ -1,9 +1,299 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ez-neurai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" /><updated>2021-06-26T01:54:19+09:00</updated><id>https://ez-neurai.github.io/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 03 :: The action potential</title><link href="https://ez-neurai.github.io/ns3" rel="alternate" type="text/html" title="Chapter 03 :: The action potential" /><published>2021-04-21T04:15:00+09:00</published><updated>2021-04-21T04:15:00+09:00</updated><id>https://ez-neurai.github.io/ns3</id><content type="html" xml:base="https://ez-neurai.github.io/ns3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ez-neurai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ez-neurai.github.io/" rel="alternate" type="text/html" /><updated>2021-07-03T18:17:48+09:00</updated><id>https://ez-neurai.github.io/feed.xml</id><title type="html">Brain Computer Interface</title><subtitle>Brain is wider than the sky</subtitle><entry><title type="html">Chapter 04 :: Synaptic Transmission</title><link href="https://ez-neurai.github.io/ns4" rel="alternate" type="text/html" title="Chapter 04 :: Synaptic Transmission" /><published>2021-05-13T02:00:00+09:00</published><updated>2021-05-13T02:00:00+09:00</updated><id>https://ez-neurai.github.io/ns4</id><content type="html" xml:base="https://ez-neurai.github.io/ns4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns3&quot;&gt;Chapter 03 / The action potential &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns4&quot;&gt;Chapter 04 / Synaptic Transmission &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;synaptic-transmission&quot;&gt;Synaptic Transmission&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Synapse 란 뉴런과 뉴런 사이에 정보가 전달되는 연결 지점을 뜻한다.&lt;/p&gt;
+
+&lt;p&gt;전달 방식 ( 화학적 vs. 전기적 ) 에 대해 여러 논쟁이 있었지만 The Loewl Experimental 을 통해 화학적으로 신호가 전달된다는 사실을 증명해냈다.&lt;/p&gt;
+
+&lt;p&gt;1950년대에 전기적으로도 신호가 전달된다는 사실도 밝혀냈다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Neurotransmitter - 신경전달물질&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-electrical-synapse-&quot;&gt;[ Electrical synapse ]&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Synapse 에서 전기 신호를 화학 물질 ( 신경전달물질 ) 로 전환하지 않고 바로 신호를 전달하는 기작&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/124348912-a1200e80-dc27-11eb-9452-d3ad952ce535.PNG&quot; alt=&quot;캡처&quot; style=&quot;zoom:80%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;세포와 세포 사이에는 Gap junction 이라는 Channel 이 있고 Pore size 는 1-2 nm 이다.&lt;/p&gt;
+
+&lt;p&gt;6 개의 connexins 로 1개의 connexon 을 만들고, 2개의 connexon 이 모여 Gap junction 을 만들어낸다.&lt;/p&gt;
+
+&lt;p&gt;신호를 한 방향으로만 전달이 가능한 Chemical synapse 와는 달리 양 방향으로 전달이 가능해 Bidirectional 하다고 한다.&lt;/p&gt;
+
+&lt;p&gt;즉, Electrically coupled 하다는 것이다.&lt;/p&gt;
+
+&lt;p&gt;전기적 시냅스에는 장점과 단점이 있다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;장점 :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;화학적 시냅스에 비해 전달 속도가 빠르다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;물건을 구매했을 때 배송 대행지를 걸쳐서 오는 것이 화학적 시냅스이고,&lt;/p&gt;
+
+  &lt;p&gt;직배송으로 한 번에 집으로 택배가 오는 것은 전기적 시냅스이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;여러 개의 뉴런이 서로 전기적으로 연결되어 있다면 Bidirectional 하기 때문에 하나의 뉴런이 흥분하게 되면 주변의 다른 뉴런들도 동시에 흥분할 수 있다.&lt;/p&gt;
+
+    &lt;p&gt;또한 동시다발적인 반응을 한 번에 통제할 수도 있다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이에 수정란에서 배아로의 발달 ( Early embryonic stages ), 뇌의 발생 과정 ( Brain development ) 과 같은 빠른 반응이 필요할 때 전기적 시냅스는 매우 유용하다.&lt;/p&gt;
+
+&lt;p&gt;심근 세포의 경우 서로 Gap junction 으로 연결되어 있기 때문에 심근을 동시에 수축시킬 수 있어 원활한 심장 박동이 가능한 것이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;단점 :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Postsynaptic potential (PSPs) 이 1mV 밖에 되지 않는다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;역치 이상을 넘지 못했기 때문에 탈분극이 일어날 수 없고 자극을 전달할 수 없게 된다.&lt;/p&gt;
+
+&lt;p&gt;그래서 다수의 자극이 동시에 통합되어야만 Action potential 이 형성된다.&lt;/p&gt;
+
+&lt;p&gt;이것이 &lt;strong&gt;Synaptic integration&lt;/strong&gt; 이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-chemical-synapse-&quot;&gt;[ Chemical synapse ]&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;우리가 흔히 알고 있는 화학적 시냅스이다.&lt;/p&gt;
+
+&lt;p&gt;화학적 시냅스를 두 분류로 나누어 설명할 것이다. 물론 더 세분화하여 분류할 수도 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CNS Synapses ( 중추 신경계의 시냅스 )&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Axodendritic : Axon to Dendrite&lt;/p&gt;
+
+&lt;p&gt;Axosomatic : Axon to Cell body&lt;/p&gt;
+
+&lt;p&gt;Axoaxonic : Axon to Axon&lt;/p&gt;
+
+&lt;p&gt;Dendrodendritic : Dendrite to Dendrite&lt;/p&gt;
+
+&lt;p&gt;Gray’s type Ⅰ : Asymmetrical (비대칭) , Excitatory (흥분성)&lt;/p&gt;
+
+&lt;p&gt;Gray’s type Ⅱ : Symmetrical (대칭) , Inhibitory (억제성)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/124349000-fd832e00-dc27-11eb-86eb-5295accf4c23.jpg&quot; alt=&quot;Categories+of+CNS+membrane+differentiations&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The Neuromuscular Junction (NMJ)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Neuromuscular Junction ( 신경근 이음부 ) 즉, 우리가 수의적으로 근육을 움직일 수 있는 골격근을 생각하면 된다.&lt;/p&gt;
+
+&lt;p&gt;뇌의 시냅스와 차이점은 있지만 일반적인 부분에 있어 비슷한 원리가 적용되고 우리 몸에서 발견할 수 있는 가장 큰 시냅스라 관찰에 용이하기 때문에 연구에 자주 쓰인다.&lt;/p&gt;
+
+&lt;p&gt;또한 NMJ 에서만 발견되는 Junctional fold 가 있다.&lt;/p&gt;
+
+&lt;p&gt;→ 표면적을 넓히면 Receptor 가 다수 존재하게 되고 최대 효율로 Neurotransmitter 를 수용할 수 있게 된다. Ex) 소장 내벽의 융털과 비슷한 원리&lt;/p&gt;
+
+&lt;h2 id=&quot;-neurotransmitter-synthesis-&quot;&gt;[ Neurotransmitter synthesis ]&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;신경 전달 물질의 분류와 어떻게 합성되고 저장되는지에 대해 알아보겠다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Amino acids : Glutamate, Glycine, GABA&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Amines : Dopamine (DA), Acetylcholine (ACh), Histamine, Epinephrine, Serotonine&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Peptides : Dynorphin, Enkephalins&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Amino acids 와 Amines 계열 :  Axon terminal 에서 Precursor molecule 로부터 Synthetic enzyme 에 의해 Neurotransmitter 가 합성되고, 수송 단백질에 의해 Synaptic vesicle 에 저장된다.&lt;/p&gt;
+
+&lt;p&gt;Peptides 계열 : 결국 단백질 구조이기 때문에 Ribosome 이 존재하는 Rough ER 에서 합성되고 Golgi apparatus 에서 유래된 Secretory granules 에 저장된다.&lt;/p&gt;
+
+&lt;h2 id=&quot;-neurotransmitter-spills-into-synaptic-cleft-&quot;&gt;[ Neurotransmitter spills into synaptic cleft ]&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Exocytosis (세포외 배출)  : Synaptic vesicle 이 Presynaptic axon terminal 과 결합하여 내용물을 밖으로 방출하는 현상&lt;/p&gt;
+
+&lt;p&gt;Voltage-gated Calcium channel 이 열려 Ca2+ 가 Presynaptic 안쪽으로 들어오게 되고 Vesicles 의 방출을 유도한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/124349090-5eab0180-dc28-11eb-8c3e-8c40bd9b732b.jpg&quot; alt=&quot;cytosis&quot; style=&quot;zoom:80%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Endocytosis (세포내이입) 에 의해 Vesicle membrane 이 다시 recovered 된다.&lt;/p&gt;
+
+&lt;h2 id=&quot;-binds-to-postsynaptic-receptors-&quot;&gt;[ Binds to postsynaptic receptors ]&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;지금 다루는 내용에 대해 단어 정도만 알아두면 충분하다.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;다음 장에서 더욱 자세히 다룰 것이다.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Neurotransmitter Receptors 를 &lt;strong&gt;Effectors&lt;/strong&gt; 라고도 부른다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ionotropic receptor : transmitter 의 결합 유무에 따라 열고 닫히는 Transmitter-gated ion channels&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;EPSP : &lt;strong&gt;Excitatory&lt;/strong&gt; postsynaptic potential&lt;/p&gt;
+
+&lt;p&gt;⇒ membrane potential 의 Depolarization 유도&lt;/p&gt;
+
+&lt;p&gt;IPSP : &lt;strong&gt;Inhibitory&lt;/strong&gt; postsynaptic potential&lt;/p&gt;
+
+&lt;p&gt;⇒ membrane potential 의 Hyperpolarization 유도&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Metabotropic receptor : G-protein 을 활성화시켜 신호를 전달하는 &lt;strong&gt;G-protein-coupled receptor&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;⇒ 느리지만 지속적이다. 또한 다양하게 작용한다.&lt;/p&gt;
+
+&lt;p&gt;G proteins 활성화 &amp;gt; G-proteins 가 Effector proteins ( channel, enzyme ) 활성화 &amp;gt; ion channels of second messengers&lt;/p&gt;
+
+&lt;p&gt;Metabotropic receptor 즉, G-protein-Coupled receptor 에서 전달되는 Neurotransmitter 효과들을 Metabolic effects 라고 한다.&lt;/p&gt;
+
+&lt;p&gt;같은 신경전달물질이지만 결합하는 부위에 따라 정반대의 효과를 보일 수 있다.&lt;/p&gt;
+
+&lt;p&gt;대표적인 예로 아세틸콜린 ( ACh) 이 있다. 심장과 결합하면 박동을 차분하게 만들지만 골격근과 결합하면 근육을 각성시킨다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;담배에 니코틴이 있다는 사실은 대부분이 알 것이다. 이 니코틴이 아세틸콜린과 비슷한 구조를 가지고 있기 때문에 아세틸콜린 수용체에 결합할 수 있다.&lt;/p&gt;
+
+  &lt;p&gt;그래서 취조할 때 담배를 권하는 경우 상대를 차분하게 만들기 위해서이고 운동 선수가 시합 전에 담배를 피는 경우는 운동 능력을 극대화시키기 위함이다.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;Autoreceptors ( GPCR )&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;G-protein coupled receptor&lt;/strong&gt; 가 Postsynaptic dendrite 에만 존재하는 것이 아닌 Presynaptic axon terminal 에도 존재한다.&lt;/p&gt;
+
+&lt;p&gt;이러한 &lt;strong&gt;GPCR&lt;/strong&gt; 은 Synaptic cleft 에 과도한 Neurotransmitter 가 분비되었을 경우 Safety valve 역할을 수행한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;-removal-of-neurotransmitter-from-synaptic-cleft-&quot;&gt;[ Removal of neurotransmitter from synaptic cleft ]&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Diffusion&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reuptake : Neurotransmitter re-enters presynaptic axon terminal ( by Transporter )&lt;/p&gt;
+
+    &lt;p&gt;→ Synaptic vesicle 안에 Neurotransmitter 을 운반하는 Transport protein 과는 다른 Synaptic Cleft 에 존재하는 Transporter 이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;해당 기작의 목적은 둔감화 ( Desensitization ) 를 방지하기 위해서이다.&lt;/p&gt;
+
+&lt;p&gt;→ Synaptic Cleft 에 다량의 Neurotransmitter 가 남아있지만 Channel 이 닫히는 상태, 정말 필요한 순간에 신호가 전달이 돼도 반응을 안함. ex ) 마약&lt;/p&gt;
+
+&lt;h2 id=&quot;-synaptic-integration-&quot;&gt;[ Synaptic Integration ]&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quantal analysis of EPSPs ( Synaptic Integration 을 양자역학에 빗대어 수학적으로 분석 )&lt;/p&gt;
+
+&lt;p&gt;Synaptic Transmission 에서 기본적인 단위를 Synaptic vesicles 로 정함. 이를 Quantum 이라고 명명&lt;/p&gt;
+
+&lt;p&gt;Miniature ( =mini ) : 각각의 Synaptic vesicle 이 postsynaptic potential 에 전달할 수 있는 신호 하나하나를 뜻함. ( Depolarization or Hyperpolarization )&lt;/p&gt;
+
+&lt;p&gt;Quantal analysis : Synaptic vesicle 의 수를 알 수 있다면 전달되는 Postsynaptic potential 을 알 수 있다.&lt;/p&gt;
+
+&lt;p&gt;Neuromuscular junction : 신호가 전달될 때 대략 200 synaptic vesicles, EPSP of 40 mV or more.&lt;/p&gt;
+
+&lt;p&gt;따라서 single vesicle 이 유도할 수 있는 Postsynaptic potential 의 크기가 매우 작다. 그렇기 때문에 Synaptic vesicle 이 충분히 모여야 한다. NMJ 라서 이 정도의 크기를 가질 수 있지만 CNS 에서는&lt;/p&gt;
+
+&lt;p&gt;CNS synapse : single vesicle, EPSP of few tenths of a millivolt 즉, 충분한 Inhibition, Excitation 을 가져올 수 없다. 따라서 여러 개의 신호들을 합쳐야 한다. 이것이 Synaptic Integration 이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;-epsp-summation-&quot;&gt;[ EPSP summation ]&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;⇒ Allows for neurons to perform sophisticated computations. ex) 다양한 맛을 동시에 표현 가능&lt;/p&gt;
+
+&lt;p&gt;Spatial integration : EPSP generated simultaneously in different spaces ( 다른 공간에서 동시에 EPSP 가 발생 )&lt;/p&gt;
+
+&lt;p&gt;Temporal integration : EPSP generated at same synapse in rapid succession ( 같은 공간에서 빠르게 연속적으로 EPSP 가 발생 )&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/62509122/124349215-0cb6ab80-dc29-11eb-98f1-72d6ecd17048.png&quot; alt=&quot;Different-cases-of-IPSP-and-EPSP-summation-12&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-synaptic-integration-에-dendrite-의-구조가-기여하는-바에-대하여-&quot;&gt;[ Synaptic integration 에 Dendrite 의 구조가 기여하는 바에 대하여 ]&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dendrite ( 입력부 ) 도 전선처럼 저항이 존재하기 때문에 최초 신호를 받아들인 부분에서부터 신호를 전달함에 따라 그 신호의 세기는 감소할 것이다.&lt;/p&gt;
+
+&lt;p&gt;Vx = Vo / e (x / λ)&lt;/p&gt;
+
+&lt;p&gt;λ : Dendritic length constant&lt;/p&gt;
+
+&lt;p&gt;Dendrite 가 단순 구조가 아닌 매우 복잡한 구조를 가지고 있기에 더욱 복잡한 Integration 을 한다.&lt;/p&gt;
+
+&lt;p&gt;또한 신호가 전달됨에 따라 membrane potential 의 변화를 감지한 여러 채널들이 증폭기로써 작용한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;-ipsps-and-shunting-inhibition--흥분성-시냅스-억제성-시냅스&quot;&gt;[ IPSPs and Shunting Inhibition ] 흥분성 시냅스 억제성 시냅스&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Shunting Inhibition : Soma 에서 Axon hillock 으로 흐르는 전류를 억제시킨다.&lt;/p&gt;
+
+&lt;p&gt;Inhibitory synapse 는 Soma 나 Axon hillock 근처에 존재한다. ( Clustered on soma and near axon hillock )&lt;/p&gt;
+
+&lt;p&gt;왜냐하면 과도한 흥분을 들어왔을 때 부작용이 생기지 않도록 조절하기 위해서이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;-참고-문헌-&quot;&gt;[ 참고 문헌 ]&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Gap junction Channel ( https://link.springer.com/article/10.1007/s00018-019-03285-0 )&lt;/p&gt;
+
+&lt;p&gt;Exocytosis ( http://lifeofplant.blogspot.com/2011/04/endocytosis-and-exocytosis.html )&lt;/p&gt;
+
+&lt;p&gt;EPSP, IPSP summation ( https://www.researchgate.net/figure/Different-cases-of-IPSP-and-EPSP-summation-12_fig4_308369018 )&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential Chapter 04 / Synaptic Transmission</summary></entry><entry><title type="html">Chapter 03 :: The action potential</title><link href="https://ez-neurai.github.io/ns3" rel="alternate" type="text/html" title="Chapter 03 :: The action potential" /><published>2021-04-21T04:15:00+09:00</published><updated>2021-04-21T04:15:00+09:00</updated><id>https://ez-neurai.github.io/ns3</id><content type="html" xml:base="https://ez-neurai.github.io/ns3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns3&quot;&gt;Chapter 03 / The action potential &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns4&quot;&gt;Chapter 04 / Synaptic Transmission &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -193,12 +483,13 @@
   &lt;/li&gt;
   &lt;li&gt;Voltage-gated channels 의 수&lt;/li&gt;
   &lt;li&gt;Myelinating cells 의 유무&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential</summary></entry><entry><title type="html">Chapter 02 :: The neuronal membrane at Rest</title><link href="https://ez-neurai.github.io/ns2" rel="alternate" type="text/html" title="Chapter 02 :: The neuronal membrane at Rest" /><published>2021-03-25T22:30:00+09:00</published><updated>2021-03-25T22:30:00+09:00</updated><id>https://ez-neurai.github.io/ns2</id><content type="html" xml:base="https://ez-neurai.github.io/ns2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential Chapter 04 / Synaptic Transmission</summary></entry><entry><title type="html">Chapter 02 :: The neuronal membrane at Rest</title><link href="https://ez-neurai.github.io/ns2" rel="alternate" type="text/html" title="Chapter 02 :: The neuronal membrane at Rest" /><published>2021-03-25T22:30:00+09:00</published><updated>2021-03-25T22:30:00+09:00</updated><id>https://ez-neurai.github.io/ns2</id><content type="html" xml:base="https://ez-neurai.github.io/ns2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns3&quot;&gt;Chapter 03 / The action potential &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns4&quot;&gt;Chapter 04 / Synaptic Transmission &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -371,12 +662,13 @@ Ionic driving force : 이온을 움직일 수 있게 해주는 힘
 
 &lt;p&gt;여담으로 영화를 보면 마피아의 타겟이 된 사람이 병실에 누워있을 때 몰래 잠입해서 링겔 안에 무언가를 주입하는데, 바로 KCl 이다.&lt;/p&gt;
 
-&lt;p&gt;순식간에 높아진 체내의 K+ 농도는 근육, 심장, 뇌를 모두 반갈죽낸다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential</summary></entry><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="https://ez-neurai.github.io/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>https://ez-neurai.github.io/ns1</id><content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;순식간에 높아진 체내의 K+ 농도는 근육, 심장, 뇌를 모두 반갈죽낸다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential Chapter 04 / Synaptic Transmission</summary></entry><entry><title type="html">Chapter 01 :: Glia Cell and Neuron</title><link href="https://ez-neurai.github.io/ns1" rel="alternate" type="text/html" title="Chapter 01 :: Glia Cell and Neuron" /><published>2021-03-18T01:40:00+09:00</published><updated>2021-03-18T01:40:00+09:00</updated><id>https://ez-neurai.github.io/ns1</id><content type="html" xml:base="https://ez-neurai.github.io/ns1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns3&quot;&gt;Chapter 03 / The action potential &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns4&quot;&gt;Chapter 04 / Synaptic Transmission &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -700,12 +992,13 @@ Glia Cells 은 우리 뇌에 10% 도 안되는 부분을 차지하고 있는 Neu
 
 &lt;p&gt;그래서 뇌 안에서는 자립적으로 Microglia cell 이 면역 시스템인 식세포 작용을 담당한다.&lt;/p&gt;
 
-&lt;p&gt;또한 필요하지 않은 과도한 Neurites 를 제거하기도 한다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential</summary></entry><entry><title type="html">Prologue</title><link href="https://ez-neurai.github.io/ns0" rel="alternate" type="text/html" title="Prologue" /><published>2021-03-10T22:20:00+09:00</published><updated>2021-03-10T22:20:00+09:00</updated><id>https://ez-neurai.github.io/ns0</id><content type="html" xml:base="https://ez-neurai.github.io/ns0">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;또한 필요하지 않은 과도한 Neurites 를 제거하기도 한다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential Chapter 04 / Synaptic Transmission</summary></entry><entry><title type="html">Prologue</title><link href="https://ez-neurai.github.io/ns0" rel="alternate" type="text/html" title="Prologue" /><published>2021-03-10T22:20:00+09:00</published><updated>2021-03-10T22:20:00+09:00</updated><id>https://ez-neurai.github.io/ns0</id><content type="html" xml:base="https://ez-neurai.github.io/ns0">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Neuroscience Index &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ns0&quot;&gt;Prologue&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns1&quot;&gt;Chapter 01 / Glia Cell and Neuron&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns2&quot;&gt;Chapter 02 / The neuronal membrane at Rest&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ns3&quot;&gt;Chapter 03 / The action potential &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ns4&quot;&gt;Chapter 04 / Synaptic Transmission &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -797,4 +1090,4 @@ Neuroscience 는 생명과학, 화학, 물리학부터 시작해서 컴퓨터 �
 
 &lt;p&gt;앞으로의 Neuroscience 는 최대한 이해하기 쉽도록 자세히 다룰 예정이다.&lt;/p&gt;
 
-&lt;p&gt;대신 고등학교 수준의 생명과학 지식을 안다는 가정하에 진행할 것이니 양해바란다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential</summary></entry></feed>
+&lt;p&gt;대신 고등학교 수준의 생명과학 지식을 안다는 가정하에 진행할 것이니 양해바란다.&lt;/p&gt;</content><author><name></name></author><category term="neuroscience" /><summary type="html">Neuroscience Index Prologue Chapter 01 / Glia Cell and Neuron Chapter 02 / The neuronal membrane at Rest Chapter 03 / The action potential Chapter 04 / Synaptic Transmission</summary></entry></feed>
